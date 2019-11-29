@@ -1,0 +1,14 @@
+E:\App bank\page_01\page_01\bin\Debug\netstandard2.0\page_01.deps.json
+E:\App bank\page_01\page_01\bin\Debug\netstandard2.0\page_01.dll
+E:\App bank\page_01\page_01\bin\Debug\netstandard2.0\ref\page_01.dll
+E:\App bank\page_01\page_01\bin\Debug\netstandard2.0\page_01.pdb
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.csprojAssemblyReference.cache
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.csproj.CoreCompileInputs.cache
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.AssemblyInfoInputs.cache
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.AssemblyInfo.cs
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\XamlC.stamp
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.dll
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\ref\page_01.dll
+E:\App bank\page_01\page_01\obj\Debug\netstandard2.0\page_01.pdb

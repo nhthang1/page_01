@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="page_01.views.HomePage">
+    <ContentPage.BindingContext>
+        <viewmode:TypeExpenseViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Loại khoản chi" Grid.Row="0" Grid.Column="0"/>
+            <Entry Text="{Binding TypeExpense.IDEx, Mode=TwoWay}" Grid.Row="0" Grid.Column="1"/>
+            <Button Text="Insert" VerticalOptions="Center" Command="{Binding AddTypeEx}" Grid.Row="1" Grid.Column="0"/>
+            <Button Text="Update" VerticalOptions="Center" Command="{Binding UpdateTypeEx}" Grid.Row="1" Grid.Column="1"/>
+
+            <ListView x:Name="expenseCateList" VerticalOptions="Center" 
+                      ItemsSource="{Binding ExpenseCateList}" SelectedItem="{Binding TypeExpense, Mode=TwoWay}"
+                      Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding IDEx, Mode=TwoWay}" Detail="{Binding TitleEx, Mode=TwoWay}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
